@@ -1,0 +1,54 @@
+.navbar {
+    background-color: transparent;
+}
+.btn-download {
+    background-color: white;
+    color: #878787;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.content-excess {
+    margin-top: 150px;
+}
+
+.list-group {
+    padding: 14px 16px;
+}
+
+.list-group li {
+    list-style: none;
+    padding: 14px;
+}
+
+.list-group li:hover {
+    background-color: #464F9E;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-group .active {
+    background-color: #464F9E;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.feedback-card {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+footer li {
+    list-style: none;
+}
