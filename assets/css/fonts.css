@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../../vendor/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../../vendor/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lucida_bright;
+    src: url(../../vendor/fonts/lucida_bright/lucidabrightdemibold.ttf);
+}
+
+
+.f-poppins {
+    font-family: Poppins;
+}
+
+.f-poppins-b {
+    font-family: Poppins-Bold;
+}
+
+.f-lb {
+    font-family: lucida_bright;
+}

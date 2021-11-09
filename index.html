@@ -14,6 +14,7 @@
 
     <!-- My Style -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
 
 
     <title>Mebel Kurnia</title>
@@ -21,7 +22,7 @@
   <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="assets/images/logo.png" width="50" height="30" class="d-inline-block align-top" alt="">
@@ -29,15 +30,15 @@
           </a>
     
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav my-2 mr-sm-2">
+        <ul class="navbar-nav ml-auto mr-sm-2">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#beranda">Beranda <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Produk</a>
+                <a class="nav-link" href="#product">Produk</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kontak</a>
+                <a class="nav-link" href="#contact">Kontak</a>
             </li>
         </ul>
         </div>
@@ -45,26 +46,26 @@
 </nav>
 
     <!-- Header -->
-    <header style="background-color:rgba(214, 198, 198, 0.22);; height: auto;">
+    <header style="background-color:rgba(214, 198, 198, 0.22);; height: 700px;" id="beranda">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class=" text-bold">
+                <h1 class="content-left text-bold f-lb mb-4">
                     Buat tampilan interior
                     Anda lebih indah
                 </h1>
-                <p>
+                <p class="header-content-text f-poppins mb-4">
                     Jika Anda mencari furniture berkualitas? jangan khawatir,
                     selamat datang kami memiliki berbagai jenis furnitur
                     menunggu anda.
                 </p>
 
-                <div class="btn btn-download">
+                <a href="#" class="btn btn-download">
                     Download Sekarang
-                </div>
+                </a>
             </div>
-            <div class="col-md-6">
-                <img src="assets/images/bg-header.png" alt="" class="img-fluid; w-100">
+            <div class="col-md-6" style="margin-top: 100px;">
+                <img src="assets/images/bg-header.png" alt="" class="img-fluid; w-100" style="height: 550px;">
             </div>
         </div>
     </div>
@@ -80,7 +81,7 @@
                             <img src="assets/images/mobil.png" alt="" width="64" height="64">
                         </div>
                         <div class="content-text ml-4">
-                            <h4 class="">Pengiriman cepat</h4>
+                            <h4 class="f-poppins-b">Pengiriman cepat</h4>
                             <p>
                                 Mendaftar ke pengiriman utama untuk pengiriman gratis tanpa batas.
                             </p>
@@ -93,7 +94,7 @@
                             <img src="assets/images/back.png" alt="" width="64" height="64">
                         </div>
                         <div class="content-text ml-4">
-                            <h4 class="">Pengembalian Gratis</h4>
+                            <h4 class="f-poppins-b">Pengembalian Gratis</h4>
                             <p>
                                 Pengembalian gratis jika  pesanan
                                 tidak sesuai dengan foto
@@ -107,7 +108,7 @@
                             <img src="assets/images/24jam.png" alt="" width="64" height="64">
                         </div>
                         <div class="content-text ml-4">
-                            <h4 class="">Dukungan 24/7</h4>
+                            <h4 class="f-poppins-b">Dukungan 24/7</h4>
                             <p>
                                 Dukungan 24/7 adalah dukungan yang tersedia untuk membantu anda.
                             </p>
@@ -127,13 +128,13 @@
                 </div>
                 <div class="col-md-6">
                     <div class="excess-text-header mt-4">
-                        <h5>Apa kentungan membeli produk dari kami?</h5>
+                        <h1 class="f-lb">Apa kentungan membeli produk dari kami?</h1>
                     </div>
                     <div class="content-excess">
                         <div class="media">
-                            <img class="d-flex align-self-start mr-3" width="26" height="26" src="assets/images/calendar.png" alt="Calendar">
+                            <img class="d-flex align-self-start mr-4" width="26" height="26" src="assets/images/calendar.png" alt="Calendar">
                             <div class="media-body">
-                            <h5 class="mt-0">Produk yang tersedia</h5>
+                            <h5 class="mt-0 f-poppins-b">Produk yang tersedia</h5>
                             <p>Banyak pilihan yang tersedia disini dan tentunya
                                 anda dapat mendesain furniture yang anda mau.</p>
                             </div>
@@ -141,15 +142,15 @@
                         <div class="media mt-4">
                             <img class="d-flex align-self-start mr-3" width="36" height="36" src="assets/images/Piagam.png" alt="Calendar">
                             <div class="media-body">
-                            <h5 class="mt-0">Kualitas Terbaik</h5>
+                            <h5 class="mt-0 f-poppins-b">Kualitas Terbaik</h5>
                             <p>Kami menggunakan kualitas dan pengrajin 
                                 terbaik untuk menghasilkan hasil yang memuaskan.</p>
                             </div>
                         </div>
                         <div class="media mt-4">
                             <img class="d-flex align-self-start mr-3" width="34" height="34" src="assets/images/duit.png" alt="Calendar">
-                            <div class="media-body">
-                            <h5 class="mt-0">Harga Terjangkau</h5>
+                            <div class="media-body ">
+                            <h5 class="mt-0 f-poppins-b">Harga Terjangkau</h5>
                             <p>Walau menggunakan kualitas kayu premium kami
                                 tentunya memberikan harga terjangkau untuk anda.</p>
                             </div>
@@ -161,7 +162,7 @@
     </section>
 
     <!-- product -->
-    <section class="product">
+    <section class="product" id="product">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -278,46 +279,71 @@
     <section class="feedback">
         <div class="container">
             <div class="d-flex justify-content-center">
-                <h4>Apa Kata Customer kami?</h4>
+                <h4 class="f-lb">Apa Kata Customer kami?</h4>
             </div>
             <div class="feedback-card">
                 <div class="owl-carousel">
                     <div> 
-                        <div class="card">
+                        <div class="card mr-2">
+                            <div class="card-head d-flex flex-row">
+                                <div class="p-2">
+                                    <img src="assets/images/female.png" alt="Cicle Image" class="rounded-circle d-flex align-self-center mr-3" width="50px" height="50px">
+                                </div>
+                                <div class="p-2 mt-2 f-poppins-b">Nelly Mauliyah</div>
+                            </div>
                             <div class="card-body">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut omnis est corrupti adipisci, magnam hic, veritatis repellendus autem quo in tempore veniam! Fugit amet deserunt tempora velit quod ea cum excepturi, similique vero iste, alias debitis dolorem ad unde!
                             </div>
                         </div>
                     </div>
                     <div> 
-                        <div class="card">
+                        <div class="card mr-2">
+                            <div class="card-head d-flex flex-row">
+                                <div class="p-2">
+                                    <img src="assets/images/male.png" alt="Cicle Image" class="rounded-circle d-flex align-self-center mr-3" width="50px" height="50px">
+                                </div>
+                                <div class="p-2 mt-2 f-poppins-b">Eggi Permana</div>
+                            </div>
                             <div class="card-body">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut omnis est corrupti adipisci, magnam hic, veritatis repellendus autem quo in tempore veniam! Fugit amet deserunt tempora velit quod ea cum excepturi, similique vero iste, alias debitis dolorem ad unde!
                             </div>
                         </div>
                     </div>
                     <div> 
-                        <div class="card">
+                        <div class="card mr-2">
+                            <div class="card-head d-flex flex-row">
+                                <div class="p-2">
+                                    <img src="assets/images/male2.png" alt="Cicle Image" class="rounded-circle d-flex align-self-center mr-3" width="50px" height="50px">
+                                </div>
+                                <div class="p-2 mt-2 f-poppins-b">Ardan</div>
+                            </div>
                             <div class="card-body">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut omnis est corrupti adipisci, magnam hic, veritatis repellendus autem quo in tempore veniam! Fugit amet deserunt tempora velit quod ea cum excepturi, similique vero iste, alias debitis dolorem ad unde!
                             </div>
                         </div>
                     </div>
+        
                   </div>
             </div>
         </div>
     </section>
   
-<footer>
+<footer id="contact">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h4>Your Logo</h4>
+                <div class="d-flex justify-content-center">
+                    <img src="assets/images/logo.png" alt="Logo" width="w-20">
+                    <h4 class="d-flex align-items-center">Mebel Kurnia</h4>
+                </div>
+
+                <p>
+                    Hubungi Kami : (+62)85231674123
+                </p>
             </div>
             <div class="col-md-3">
-                <h4>Info Lain</h4>
-
                 <ul>
+                <h4 class="f-poppins-b">Info Lain</h4>
                     <li>Syarat & ketentuan</li>
                     <li>Kebijakan pribadi</li>
                     <li>Lisensi</li>
@@ -325,15 +351,14 @@
                 
             </div>
             <div class="col-md-3">
-                <h4>Media</h4>
-
                 <ul>
+                    <h4 class="f-poppins-b">Media</h4>
                     <li>Berita terbaru</li>
                     <li>Blogs</li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h4>Ikuti kami</h4>
+                <h4 class="f-poppins-b">Ikuti kami</h4>
                 
                 <div class="d-inline-flex">F</div>
                 <div class="d-inline-flex">I</div>
