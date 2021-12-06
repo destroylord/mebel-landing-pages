@@ -12,20 +12,21 @@
 .navbar {
     background-color: transparent;
 }
+
 .btn-download {
+    border-radius: 10px;
     background-color: var(--white);
-    color: #878787;
+    color: var(--primary);
+    font-weight: Bold;
+    border: 1px solid var(--primary);
     padding: 14px 16px;
+    transition: 0.6s;
 }
 
-/* .btn-download::after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f007";
-    display: inline-block;
-    padding-right: 3px;
+.btn-download:hover {
     background-color: var(--primary);
-    vertical-align: middle;
-} */
+    color: var(--white);
+}
 
 section {
     margin-top: 120px;
